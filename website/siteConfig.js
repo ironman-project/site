@@ -16,10 +16,10 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site' /* title for your website */,
+  title: 'Ironman Project',
   tagline: 'A website for testing',
-  url: 'https://facebook.github.io' /* your website url */,
-  baseUrl: '/test-site/' /* base url for your project */,
+  url: 'https://ironman-project.github.io',
+  baseUrl: '/site/',
   projectName: 'site',
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
@@ -50,7 +50,7 @@ const siteConfig = {
   },
   scripts: ['https://buttons.github.io/buttons.js'],
   // You may provide arbitrary config keys to be used as needed by your template.
-  repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: 'https://github.com/ironman-project/site',
 };
 
 module.exports = siteConfig;
